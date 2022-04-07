@@ -1,0 +1,146 @@
+# Naming
+ro.product.system.brand=Redmi
+ro.product.system.device=begonia
+ro.product.system.manufacturer=Xiaomi
+ro.product.system.model=Redmi Note 8 Pro
+ro.product.system.name=begonia
+sys.phh.xx.brand=Redmi
+sys.phh.xx.manufacturer=Xiaomi
+sys.phh.xx.model=Redmi Note 8 Pro
+ro.lineage.device=begonia
+ro.crdroid.device=begonia
+
+# Spoof build date to fix GApps battery drain
+ro.build.date.utc=9999999999
+ro.system.build.date.utc=9999999999
+
+# APEX
+ro.apex.updatable=false
+
+# Radio
+vendor.rild.libpath=mtk-ril.so
+vendor.rild.libargs=-d /dev/ttyC0
+persist.sys.fflag.override.settings_provider_model=false
+
+# Wi-Fi
+wifi.interface=wlan0
+ro.mediatek.wlan.wsc=1
+ro.mediatek.wlan.p2p=1
+mediatek.wlan.ctia=0
+wifi.tethering.interface=ap0
+wifi.direct.interface=p2p0
+ro.vendor.net.enable_dual_wifi=1
+
+# NFC
+ro.hardware.nfc_nci=nqx.default
+
+# Bluetooth
+persist.bluetooth.avrcpversion=avrcp16
+persist.sys.phh.disable_a2dp_offload=true
+
+# VoLTE
+persist.dbg.vt_avail_ovr=1
+persist.dbg.volte_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+persist.dbg.allow_ims_off=1
+
+# Sensors
+persist.radio.sar_sar_sensor=true
+
+# Netflix quality parameters
+ro.netflix.bsp_rev=MTK6785-18758-1
+
+# Camera
+persist.camera.eis.enable=1
+ro.camera.sensor.highres.0.max=9280:6944
+ro.camera.highres.packagelist=org.lineageos.snap,org.codeaurora.snapcam
+persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,com.google.camera
+vendor.camera.aux.packageblacklist=org.telegram.messenger,com.microsoft.teams,com.discord
+vendor.camera2.aux.mainids=0,1,21,22
+ro.camera.sensor.id_rear=0
+ro.camera.sensor.id_front=1
+ro.camera.sensor.highres.0=[[9248:6936:33:0],[9280:6944:32:1]]
+ro.camera.sensor.highres.1=[[5184:3880:33:0],[5184:2920:33:0],[5184:2392:33:0],[3888:3888:33:0]]
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.google.camera
+vendor.camera2.aux.packagelist=com.android.camera,com.google.camera,org.codeaurora.snapcam
+
+# Charger
+ro.charger.enable_suspend=false
+ro.charger.disable_init_blank=1
+ro.product.charger.unplugged_shutdown_time=1000
+persist.vendor.quick.charge=1
+
+# Audio
+ro.camera.sound.forced=0
+ro.audio.silent=0
+
+# Identity
+Build.BRAND=MTK
+
+# IPO
+sys.ipo.disable=1
+
+# Display
+ro.opengles.version=196610
+debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
+renderthread.skia.reduceopstasksplitting=true
+persist.sys.scrollingcache=1
+ro.vendor.all_modes.colorpick_adjust=true
+ro.vendor.cabc.enable=true
+ro.vendor.colorpick_adjust=true
+ro.vendor.xiaomi.bl.poll=true
+vendor.displayfeature.entry.enable=true
+vendor.displayfeature_hidl=true
+debug.cpurend.vsync=true
+
+# Blur
+ro.surface_flinger.supports_background_blur=1
+persist.sys.sf.disable_blurs=0
+ro.sf.blurs_are_expensive=1
+
+# Dex
+persist.bg.dexopt.enable=true
+dalvik.vm.dexopt.secondary=true
+pm.dexopt.install=speed-profile
+pm.dexopt.bg-dexopt=speed-profile
+pm.dexopt.boot=verify
+pm.dexopt.first-boot=quicken
+dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5
+dalvik.vm.dex2oat-threads=6
+
+# Kernel
+ro.kernel.zio=38,108,105,16
+
+# Performance
+ro.mtk_perf_simple_start_win=1
+ro.mtk_perf_fast_start_win=1
+ro.mtk_perf_response_time=1
+
+# Dalvik
+dalvik.vm.heapstartsize=16m
+dalvik.vm.heapgrowthlimit=256m
+dalvik.vm.heapsize=512m
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.heapminfree=8m
+dalvik.vm.heapmaxfree=32m
+
+# Zygote Preforking
+persist.device_config.runtime_native.usap_pool_enabled=true
+
+# Zygote
+ro.zygote.preload.enable=0
+
+# Power
+sys.ipo.pwrdncap=2
+
+# SafetyNet (erementein's GSI's only)
+persist.sys.phh.safetynet=true
+persist.sys.phh.pixelprops=true
+
+# Misc
+ro.malloc.impl=jemalloc
+ro.product.locale=ru-RU
+
+# Keys
+qemu.hw.mainkeys=0
