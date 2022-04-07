@@ -5,6 +5,7 @@ That repository contains a lot of different fixes and additions for phh-GSI ROM'
 
 ## Credits
 [bugreporter](https://github.com/bugreportion) (this repository based on his same-named [repository](https://github.com/bugreportion/begonia-gsi-adaptation))
+
 [valap](https://github.com/TTTT555)
+
 [7Soldier](https://github.com/7Soldier)
-форматирование текста
