@@ -14,9 +14,6 @@ ro.crdroid.device=begonia
 ro.build.date.utc=9999999999
 ro.system.build.date.utc=9999999999
 
-# APEX
-ro.apex.updatable=false
-
 # Radio
 vendor.rild.libpath=mtk-ril.so
 vendor.rild.libargs=-d /dev/ttyC0
